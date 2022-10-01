@@ -6,6 +6,8 @@ A atuação de peritos, assistentes, advogados, etc, nos processos da justiça d
 
 O propósito deste projeto é congelar a configuração do assinador em uma imagem Docker, permitindo que os usuários atualizem seus hosts sem quebrar as dependências do Shodô. A imagem final também contém o gerenciador de certificados **Safesign** e os drivers do token **StarSign**.
 
+![Starsign](https://github.com/lzkill/shodo/blob/master/image/starsign.jpg?raw=true)
+
 ## Dependências
 
 - Docker
@@ -20,7 +22,7 @@ Após o clone do projeto execute `git lfs pull` para baixar os arquivos grandes 
 - Abra no seu navegador o link gerado pelo container;
 - No Ubuntu acessado execute o Firefox e efetue login no PJe usando seu token físico.
 
-![Shodô](https://github.com/lzkill/shodo/blob/master/image/url.png?raw=true)
+![Url](https://github.com/lzkill/shodo/blob/master/image/url.png?raw=true)
 
 ## Todo
 
