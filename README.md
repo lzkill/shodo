@@ -20,9 +20,10 @@ Após o clone do projeto execute `git lfs pull` para baixar os arquivos grandes 
 - Espete seu e-CPF em uma porta USB;
 - Instancie um container com Shodô (`./start.sh`);
 - Abra no seu navegador o link gerado pelo container;
-- No Ubuntu acessado execute o Firefox e efetue login no PJe usando seu token físico.
 
 ![Url](https://github.com/lzkill/shodo/blob/master/image/url.png?raw=true)
+
+- No Ubuntu acessado execute o Firefox e efetue login no PJe usando seu token físico.
 
 ## Todo
 
