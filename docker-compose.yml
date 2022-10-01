@@ -1,7 +1,0 @@
-services:
-  shodo:
-    build:
-      context: .
-      target: builder
-    ports:
-      - '9000:9000'
