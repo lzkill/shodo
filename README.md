@@ -6,7 +6,7 @@ A atuação de peritos, assistentes, advogados, etc, nos processos da justiça d
 
 O propósito deste projeto é congelar a configuração do assinador em uma imagem Docker, permitindo que os usuários atualizem seus hosts sem quebrar as dependências do Shodô. A imagem final também contém o gerenciador de certificados **Safesign** e os drivers do token **StarSign**.
 
-![Starsign](https://github.com/lzkill/shodo/blob/master/image/starsign.jpg?raw=true)
+![Starsign](https://github.com/lzkill/shodo/blob/master/image/starsign.png?raw=true)
 
 ## Dependências
 
