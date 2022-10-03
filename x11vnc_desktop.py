@@ -402,7 +402,7 @@ if __name__ == "__main__":
 
     cmd = ["docker", "run", "-d", rmflag, "--name", hostname,
                      "--shm-size", "2g", "-p", port_http + ":6080",
-                     "-p", port_vnc + ":5900"] + \
+                     "-p", port_vnc + ":5900", "-p", "9000:9000"] + \
         envs + volumes + devices + args.args.split() + \
         ['--privileged', '--security-opt', 'seccomp=unconfined', '--cap-add=SYS_PTRACE',
          args.image, "startvnc.sh >> " +

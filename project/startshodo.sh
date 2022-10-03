@@ -1,7 +1,6 @@
 #!/bin/bash
 
-SHODO_HOME=/opt/shodo
-JAVA_HOME=/opt/java/jre1.8.0_202
+set -e
 
 start_pcscd()
 {

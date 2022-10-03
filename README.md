@@ -23,9 +23,9 @@ O propósito deste projeto é congelar a configuração do assinador em uma imag
 
 ![Url](https://github.com/lzkill/shodo/blob/master/image/url.png?raw=true)
 
-- No terminal exibido execute o Shodô (`sudo start_shodo`).
+- No terminal exibido execute o Shodô (`sudo -E ./start_shodo`).
 
 ## Todo
 
-- Injetar `--privileged` como argumento para `x11vnc_desktop.py`;
-- Download das dependências com curl.
+- Passar `--privileged` e `-p 9000:9000` como argumentos para `x11vnc_desktop.py`;
+- Download das dependências com curl. (*.deb / jdk)
