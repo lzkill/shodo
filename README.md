@@ -13,7 +13,7 @@ O propósito deste projeto é congelar a configuração do assinador em uma imag
 - Docker
 - git-lfs
 
-:information_source: Após o clone do projeto execute `git lfs pull` para baixar os arquivos grandes do repositório.
+:heavy_check_mark: Após o clone do projeto execute `git lfs pull` para baixar os arquivos grandes do repositório.
 
 ## How to
 
@@ -23,7 +23,9 @@ O propósito deste projeto é congelar a configuração do assinador em uma imag
 
 ![Url](https://github.com/lzkill/shodo/blob/master/image/url.png?raw=true)
 
-- No terminal exibido execute o Shodô (`sudo -E ./start_shodo`).
+- No terminal exibido execute o Shodô (`sudo -E ./start_shodo`);
+
+:bulb: Use o diretório `tmp` do projeto para disponibilizar arquivos dentro do container (`~/shared/tmp`).
 
 ## Todo
 
