@@ -1,10 +1,12 @@
 #!/bin/bash
 
+SHODO_HOME=/opt/shodo
+JAVA_HOME=/opt/java/jre1.8.0_202
+
 start_pcscd()
 {
-  service pcscd start 
+  service pcscd start
 }
-
 
 start_shodo()
 {
@@ -18,4 +20,3 @@ mkdir -p $HOME/.log
 
 start_pcscd
 start_shodo
-

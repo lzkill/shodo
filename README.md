@@ -2,7 +2,7 @@
 
 # Shodô
 
-A atuação de peritos, assistentes, advogados, etc, nos processos da justiça do trabalho requer  a utilização de e-CPFs do tipo A3 (token), bem de um assinador customizado chamado **Shodô**.
+A atuação de peritos, advogados, etc, nos processos da justiça do trabalho requer  a utilização de e-CPFs do tipo A3 (token), bem como de um assinador customizado chamado **Shodô**.
 
 O propósito deste projeto é congelar a configuração do assinador em uma imagem Docker, permitindo que os usuários atualizem seus hosts sem quebrar as dependências do Shodô. A imagem final também contém o gerenciador de certificados **SafeSign** e os drivers do token **StarSign**.
 
@@ -13,21 +13,19 @@ O propósito deste projeto é congelar a configuração do assinador em uma imag
 - Docker
 - git-lfs
 
-Após o clone do projeto execute `git lfs pull` para baixar os arquivos grandes do repositório.
+:information_source: Após o clone do projeto execute `git lfs pull` para baixar os arquivos grandes do repositório.
 
 ## How to
 
 - Espete seu e-CPF em uma porta USB;
-- Instancie um container com Shodô (`./start.sh`);
+- Instancie um container com Shodô (`./run.sh`);
 - Abra no seu navegador o link gerado pelo container;
 
 ![Url](https://github.com/lzkill/shodo/blob/master/image/url.png?raw=true)
 
-- No Ubuntu acessado execute o Firefox e efetue login no PJe usando seu token físico.
+- No terminal exibido execute o Shodô (`sudo start_shodo`).
 
 ## Todo
 
-- Corrigir start do Shodô;
 - Injetar `--privileged` como argumento para `x11vnc_desktop.py`;
 - Download das dependências com curl.
-
