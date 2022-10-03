@@ -308,7 +308,7 @@ if __name__ == "__main__":
         except subprocess.CalledProcessError as e:
             stderr_write(e.output.decode('utf-8'))
 
-    volumes = ["-v", pwd + ":" + docker_home + "/shared",
+    volumes = ["-v", homedir + "/Desktop" + ":" + docker_home + "/Desktop",
                "-v", config + ":" + docker_home + "/.config"]
 
     if os.path.exists(homedir + "/.gnupg"):

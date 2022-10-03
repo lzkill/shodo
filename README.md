@@ -1,4 +1,4 @@
-![Shodô](https://github.com/lzkill/shodo/blob/master/image/shodo.jpg?raw=true)
+![Shodô](https://github.com/lzkill/shodo/blob/master/docs/img/shodo.jpg?raw=true)
 
 # Shodô
 
@@ -6,7 +6,7 @@ A atuação de peritos, advogados, etc, nos processos da justiça do trabalho re
 
 O propósito deste projeto é congelar a configuração do assinador em uma imagem Docker, permitindo que os usuários atualizem seus hosts sem quebrar as dependências do Shodô. A imagem final também contém o gerenciador de certificados **SafeSign** e os drivers do token **StarSign**.
 
-![Starsign](https://github.com/lzkill/shodo/blob/master/image/starsign.png?raw=true)
+![Starsign](https://github.com/lzkill/shodo/blob/master/docs/img/starsign.png?raw=true)
 
 ## Dependências
 
@@ -21,11 +21,11 @@ O propósito deste projeto é congelar a configuração do assinador em uma imag
 - Instancie um container com Shodô (`./run.sh`);
 - Abra no seu navegador o link gerado pelo container;
 
-![Url](https://github.com/lzkill/shodo/blob/master/image/url.png?raw=true)
+![Url](https://github.com/lzkill/shodo/blob/master/docs/img/url.png?raw=true)
 
 - No terminal exibido execute o Shodô (`sudo -E ./start_shodo`);
 
-:bulb: Use o diretório `tmp` do projeto para disponibilizar arquivos dentro do container (`~/shared/tmp`).
+:bulb: Arquivos existentes no `Desktop` do host são vizíveis e editáveis no `Desktop` do container.
 
 ## Todo
 
