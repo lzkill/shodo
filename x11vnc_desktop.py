@@ -400,6 +400,8 @@ if __name__ == "__main__":
         stderr_write("Error: Could not find a free port.\n")
         sys.exit(-1)
 
+    volumes += ["-v", "/dev/bus/usb/:/dev/bus/usb/"]
+
     cmd = ["docker", "run", "-d", rmflag, "--name", hostname,
                      "--shm-size", "2g", "-p", port_http + ":6080",
                      "-p", port_vnc + ":5900", "-p", "9000:9000"] + \

@@ -27,7 +27,4 @@ O propósito deste projeto é congelar a configuração do assinador em uma imag
 
 :bulb: Arquivos existentes no `Desktop` do host são vizíveis e editáveis no `Desktop` do container.
 
-## Todo
-
-- Passar `--privileged` e `-p 9000:9000` como argumentos para `x11vnc_desktop.py`;
-- Download das dependências com curl. (*.deb / jdk)
+:warning: O container gerado roda em modo privilegiado (`--privileged`) e faz bind de `/dev/bus/usb`.
